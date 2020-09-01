@@ -9,7 +9,7 @@
 ## Part 2: Coding Challenge - Adding Features
 * Your friend asked you to build them a real estate app because they're really tired of using Zillow. After doing some domain modeling, you have built a `Listing` and `Agent` class and wired up relationships between these classes. Next, you will enhance the application in one (or more) of the following ways:
 
-1. Add a `Seller` class, representing a person shopping for a new home, with the following relationships:
+1. Add a `Seller` class, representing a person listing a new home, with the following relationships:
 * `Listing` belongs to `Seller`
 * `Seller` has many `Listings`
 * `Agent` has many `Sellers` through `Listings`
